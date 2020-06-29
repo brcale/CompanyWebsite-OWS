@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+}
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #7b4397,#dc2430);
+    /*background-image: linear-gradient(to right, #ffc270,#D1913C);*/
+    padding: 0 !important;
+}
+.navbar-brand img
+{   
+    height:45px;
+    padding-left:20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a 
+{
+    color: #fff !important;
+    font-weight:600;
+    float:right;
+    text-align:left;
+}
+.fa-bars
+{
+    color:#fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline:none !important;
+}
+/*Baner*/
+#banner
+{
+    background-image: linear-gradient(to right, #7b4397,#dc2430);
+    /*background-image: linear-gradient(to right, #ffc270,#D1913C);*/
+    /*stari-background-image: linear-gradient(to right, #a517ba, #5f1782);*/
+    color:#fff;
+    padding-top:5%;
+}
+.head-title
+{
+    font-size:32px;
+    font-weight:600;
+    margin-top:100px;
+}
+.rocket-logo
+{
+    height:300px;
+    width:300px;
+}
+.bottom-img
+{
+    width:100%;
+    height:100px;
+    padding-top:20px;
+}
+/*service section*/
+#services
+{
+    padding:80px 0;
+}
+.service-img
+{
+    width:100px;
+    margin-top:20px;
+}
+.services
+{
+    padding:20px;
+}
+.services h4
+{
+    padding:5px;
+    margin-top:20px;
+    text-transform:uppercase;
+}
+.title::before
+{
+    content: '';
+    background: linear-gradient(to right, #7b4397,#dc2430);
+    height:5px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transform:translateY(63px);
+}
+#services .btn-primary
+{
+    box-shadow:none;
+    padding:8px 25px;
+    border:none;
+    border-radius:20px;
+    background-image: linear-gradient(to right, #7b4397,#dc2430);
+}
+/*About us section*/
+#about-us
+{
+    background:#f2f2f2;
+    padding-bottom:50px;
+    padding-top:50px;
+
+}
+.about-title
+{
+    font-size:40px;
+    font-weight:600;
+    margin-top:8%;
+}
+.about-us-img
+{
+    height:425px;
+    width:400px;
+    padding-top:25px;
+}
+#about-us ul li
+{
+    margin:10px 0;
+}
+/*experiences section*/
+#experiences
+{
+    margin:100px 0;
+}
+.experiences
+{
+    border-left:4px solid #7b1798;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.experiences img
+{
+    height:85px;
+    width:85px;
+    border-radius:50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display:inline-block;
+    font-size:12px;
+}
+/*social media section*/
+#social-media
+{
+    background:#f8f9fa;
+    padding:100px 0;
+}
+#social-media p
+{
+    font-size:36px;
+    font-weight:600;
+    margin-bottom:30px;
+}
+.social-media img
+{
+    transition:0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+/*footer*/
+#footer
+{
+    background-image: linear-gradient(to right, #7b4397,#dc2430);
+}
+.footerbox
+{
+    padding-top:35px;
+    padding-bottom:35px;
+    color:#fff;
+}
+.footerbox img
+{
+    padding-bottom:18px;
+}
+.footerbox .fa
+{
+    margin-right:8px;
+    font-size:25px;
+    height:12px;
+}
+.footerbox .btn-primary
+{
+    box-shadow:none;
+    border:none;
+    border-radius: 0;
+    margin-top:15px;
+    background-color:#dc2430;
+}
+hr{
+    background-color: #fff;
+}
+.copyright
+{
+    margin-bottom:0;
+    padding-bottom:20px;
+    text-align: center;
+    color:#fff
+}
+
+#more-exp
+{
+    display:none
+}
+#expbutton
+{
+    background-color:#7b4397;
+}
